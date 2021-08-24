@@ -44,3 +44,12 @@ p {
     font-family: 'Yomogi';
     font-weight: 400;
 }
+
+.pc p {
+    background-color: skyblue;
+    color: lightcyan;
+    font-size: 35px;
+    margin-top: 30px;
+    font-family: 'Yomogi';
+    font-weight: 400;
+}
