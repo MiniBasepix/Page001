@@ -39,7 +39,7 @@ img {
 p {
     background-color: skyblue;
     color: lightcyan;
-    font-size: 15px;
+    font-size: 25px;
     margin-top: 30px;
     font-family: 'Yomogi';
     font-weight: 400;
@@ -48,8 +48,8 @@ p {
 .pc p {
     background-color: skyblue;
     color: lightcyan;
-    font-size: 35px;
+    font-size: 40px;
     margin-top: 30px;
     font-family: 'Yomogi';
-    font-weight: 400;
+    font-weight: 600;
 }
