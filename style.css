@@ -8,7 +8,6 @@ body, html {
 
   /* パソコンで見たときは"pc"のclassがついた画像が表示される */
 .pc { display: block !important; 
- margin-top: 40px;
 }
 .phone { display: none !important; }
  
@@ -30,10 +29,6 @@ header {
     top: 0px;
     font-weight: 700;
     font-size: 25px;
-}
-
-img {
-    width: 100%;
 }
 
 p {
