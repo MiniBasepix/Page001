@@ -14,7 +14,11 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Yomogi&display=swap" rel="stylesheet">
 </head>
-<body>
+<body id="wrap">
+    <div id="loader-bg">
+  <div class="bouncingLoader"><div></div></div>
+</div>
+
     <!-- ヘッダー -->
     <header id="header">
         自由研究　2021
@@ -36,11 +40,47 @@
         <img src="7.jpg" alt="わかったこと" width="400">
         <p>感想</p>
         <img src="8.jpg" alt="感想" width="400">
+        <footer>
+            このサイトはreCAPTCHAによって保護されており、Googleの<a href = "https://policies.google.com/privacy">プライバシーポリシー</a>と<a href = "https://policies.google.com/terms">利用規約</a>が適用されます。 <br>
+            <h5>This page by Clos JaslCreated on GitHub. Release date 2021/08/23<br>
+                Author: Clos Jasl
+            </h5>
+        </footer>
     </div>
     
     <div class="pc"><br><br>
-        <h2>このページを16インチ以上で見る</h2>
-        <h3>16インチ以上に対応するまでお待ちください。</h3>
+        <p id="chapter1">タイトル</p>
+        <img src="1.jpg" alt="タイトル" width="250">
+        <p>きっかけ・調べたいこと</p>
+        <img src="2.jpg" alt="きっかけ・調べたいこと" width="250">
+        <p>用意するもの・予想</p>
+        <img src="3.jpg" alt="用意するもの・予想" width="250">
+        <p>実験方法</p>
+        <img src="4.jpg" alt="実験方法" width="250">
+        <p>実験結果A</p>
+        <img src="5.jpg" alt="実験結果A" width="250">
+        <p>実験結果B</p>
+        <img src="6.jpg" alt="実験結果B" width="250">
+        <p>わかったこと</p>
+        <img src="7.jpg" alt="わかったこと" width="250">
+        <p>感想</p>
+        <img src="8.jpg" alt="感想" width="250">
+        <footer>
+            このサイトはreCAPTCHAによって保護されており、Googleの<a href = "https://policies.google.com/privacy">プライバシーポリシー</a>と<a href = "https://policies.google.com/terms">利用規約</a>が適用されます。 <br>
+            <h5>This page by Clos JaslCreated on GitHub. Release date 2021/08/23<br>
+                Author: Clos Jasl
+            </h5>
+        </footer>
     </div>
+            
+     <script src="https://www.google.com/recaptcha/api.js?render=6Lf28UYcAAAAADsoAaDN9BAi0-EKgoT3NOykk2u-"></script>
+  <script>
+      grecaptcha.ready(function () {
+        grecaptcha.execute("6Lf28UYcAAAAADsoAaDN9BAi0-EKgoT3NOykk2u-", {action: "sent"}).then(function(token) {
+          var recaptchaResponse = document.getElementById("recaptchaResponse");
+          recaptchaResponse.value = token;
+        });
+      });
+  </script>
 </body>
 </html>
