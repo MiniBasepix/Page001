@@ -68,8 +68,8 @@ footer {
     color: white;
 }
 
-.phone footer p, h5 {
-    font-size: 5px;
+.phone footer p {
+    font-size: 10px;
     font-family: sans-serif;
 }
 
