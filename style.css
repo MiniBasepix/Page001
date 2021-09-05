@@ -82,3 +82,8 @@ footer {
 a {
  color: white;
 }
+
+header a {
+    color: gray;
+    text-decoration: none;
+}
