@@ -81,6 +81,14 @@ footer p {
     margin: 0;
 }
 
+.pc footer p {
+    font-size: 13px;
+    font-family: sans-serif;
+    color: white;
+    background: gray;
+    margin: 0;
+}
+
 a {
  color: white;
 }
