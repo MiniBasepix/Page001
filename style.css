@@ -76,6 +76,7 @@ footer {
 .phone footer p {
     font-size: 10px;
     font-family: sans-serif;
+    background: gray;
 }
 
 a {
