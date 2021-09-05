@@ -7,14 +7,21 @@ body, html {
   }
 
   /* パソコンで見たときは"pc"のclassがついた画像が表示される */
-.pc { display: block !important; 
+.pc { 
+    display: block !important; 
 }
-.phone { display: none !important; }
+.phone {
+    display: none !important;
+}
  
 /* スマートフォンで見たときは"sp"のclassがついた画像が表示される */
 @media only screen and (max-width: 1440px) {
-    .pc { display: none !important; }
-    .phone { display: block !important; }
+    .pc { 
+        display: none !important; 
+    }
+    .phone { 
+        display: block !important; 
+    }
 }
 
 header {
@@ -29,6 +36,7 @@ header {
     top: 0px;
     font-weight: 700;
     font-size: 25px;
+    position: fixed;
 }
 
 p {
