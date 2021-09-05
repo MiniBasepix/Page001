@@ -73,7 +73,7 @@ footer h5 {
     font-family: sans-serif;
 }
 
-.phone footer p {
+.phone footer h4 {
     font-size: 13px;
     font-family: sans-serif;
     color: white;
@@ -81,7 +81,7 @@ footer h5 {
     margin: 0;
 }
 
-.pc footer p {
+.pc footer h4 {
     text-size: 5px;
     font-family: sans-serif;
     color: white;
