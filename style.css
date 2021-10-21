@@ -128,9 +128,9 @@ header a {
 
 .loader,
 .loader:after {
-  border-radius: 100%;
-  width: 25px;
-  height: 25px;
+  border-radius: 50%;
+  width: 10em;
+  height: 10em;
 }
 .loader {
   margin: 60px auto;
