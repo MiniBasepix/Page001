@@ -18,7 +18,7 @@
     <!-- Loading Animation -->
     <div id="loading">
         <div class="center"><h1 class="font-style1">Page001</div>
-        <div id="center"><img src="Image/Loading.svg" width="50px"></div>
+        <div id="center">HTML・CSS・JavaScriptを読み込んでいます。<br>しばらくお待ちください</div>
       </div>
 </head>
     <!-- header -->
@@ -87,6 +87,12 @@
           recaptchaResponse.value = token;
         });
       });
+  </script>
+  <sctipt>
+            window.onload = function() {
+    const spinner = document.getElementById('loading');
+    spinner.classList.add('loaded');
+  }
   </script>
 </body>
 </html>
