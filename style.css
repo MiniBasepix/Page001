@@ -128,9 +128,9 @@ header a {
 
 .loadanimation,
 .loadanimation:after {
-  border-radius: 50%;
-  width: 5em;
-  height: 5em;
+  border-radius: 30%;
+  width: 25px;
+  height: 25px;
 }
 .loadanimation {
   font-size: 10px;
