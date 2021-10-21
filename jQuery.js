@@ -4,7 +4,7 @@ window.onload = function() {
   }
 
 $(function(){
-  setTimeout('stopload()',10000);
+  setTimeout('stopload()',20000);
 });
   
 function stopload(){
