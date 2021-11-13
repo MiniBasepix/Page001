@@ -126,3 +126,6 @@ header a {
     text-align: center;
 }
 
+a h6 {
+    color: bark-gray;
+}
