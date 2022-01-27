@@ -25,18 +25,20 @@
     <script>
     document.oncontextmenu = function() { alert("Jiyukenでは右クリックができなくなっています。"); return false; }
     </script>
-    <!-- Loading Animation -->
+    
+</head>
+<body>
+    <div id="JSNG" style="text-align: center; font-size: 10px;">
+        <p style="font-size: 20px;>JavaScript が無効化されています。</p><br><p>Page001を表示するにはJavaScriptを有効にしてください。</p>
+</div>
+    <script>  document.getElementById("JSNG").style.display = "none";</script>
+    <div id="JSOK">
+        <!-- Loading Animation -->
     <div id="loading">
         <div class="center"><h1 class="font-style1">independent research</div>
         <div id="center">HTML・CSS・JavaScriptを読み込んでいます。<br>しばらくお待ちください</div>
       </div>
-</head>
-<body>
-    <div id="JSNG" style="width: 400px; text-align: left; border: 5px solid #ffaaaa; padding: 10px;">
-<p>JavaScript が無効化されています。Page001を表示するにはJavaScriptを有効にしてください。</p>
-</div>
-    <script>  document.getElementById("JSNG").style.display = "none";</script>
-    <div id="JSOK">
+        
     <!-- header -->
     <header id="header">
         <a href="https://MiniBasepix.github.io/Page001">自由研究　2021</a>
