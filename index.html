@@ -26,16 +26,14 @@
     document.oncontextmenu = function() { alert("Jiyukenでは右クリックができなくなっています。"); return false; }
     </script>
     <!-- copy -->
-    <script>
     document.addEventListener('copy', function(e){
-    /** 元のコピーテキストを取得 */
-    var copied = window.getSelection().toString();
-    /** コピーテキストを書き換え */
-    e.clipboardData.setData('text/plain', copied.toUpperCase(Jiyuken text cannot be copied.));
-    /** 元のイベントが起こるのをキャンセル */
-    e.preventDefault();
+      /** 元のコピーテキストを取得 */
+      var copied = window.getSelection().toString();
+      /** コピーテキストを書き換え */
+      e.clipboardData.setData('text/plain', copied.toUpperCase(Jiyuken text cannot be copied.));
+      /** 元のイベントが起こるのをキャンセル */
+      e.preventDefault();
     });
-    </script>
 </head>
 <body oncopy="return false;">
     <noscript>
