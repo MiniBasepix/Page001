@@ -25,8 +25,19 @@
     <script>
     document.oncontextmenu = function() { alert("Jiyukenでは右クリックができなくなっています。"); return false; }
     </script>
+    <!-- copy -->
+    <script>
+    document.addEventListener('copy', function(e){
+    /** 元のコピーテキストを取得 */
+    var copied = window.getSelection().toString();
+    /** コピーテキストを書き換え */
+    e.clipboardData.setData('text/plain', copied.toUpperCase(Jiyuken text cannot be copied.));
+    /** 元のイベントが起こるのをキャンセル */
+    e.preventDefault();
+    });
+    </script>
 </head>
-<body>
+<body oncopy="return false;">
     <noscript>
         <p style="text-align: center; font-size: 20px;">JavaScriptが無効です。</p><br><p style="text-align: center; font-size: 12.5px;">Page001を閲覧するにはJavaScriptを有効にしてください。</p>
     </noscript>
