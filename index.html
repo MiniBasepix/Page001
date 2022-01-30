@@ -25,7 +25,8 @@
     <script>
     document.oncontextmenu = function() { alert("Jiyukenでは右クリックができなくなっています。"); return false; }
     </script>
-    <!-- copy -->
+    <!-- copy --
+<script>
     document.addEventListener('copy', function(e){
       /** 元のコピーテキストを取得 */
       var copied = window.getSelection().toString();
@@ -34,6 +35,7 @@
       /** 元のイベントが起こるのをキャンセル */
       e.preventDefault();
     });
+</script>
 </head>
 <body oncopy="return false;">
     <noscript>
